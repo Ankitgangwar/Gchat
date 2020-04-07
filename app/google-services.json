@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "594077334741",
+    "firebase_url": "https://gchat-4a03b.firebaseio.com",
+    "project_id": "gchat-4a03b",
+    "storage_bucket": "gchat-4a03b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594077334741:android:13ecb1422e373ce49e365c",
+        "android_client_info": {
+          "package_name": "com.example.gchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594077334741-r0peknr9veikeuhhpuci3urr5lc74sem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gchat",
+            "certificate_hash": "397b0809758a29ed9cb85242daddba25a66b87d1"
+          }
+        },
+        {
+          "client_id": "594077334741-sbl87og0o86s0meps00il3ednsrtcffk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwrqbNbK1RLNBdYzWGVAB3y4hIujZepus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594077334741-sbl87og0o86s0meps00il3ednsrtcffk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

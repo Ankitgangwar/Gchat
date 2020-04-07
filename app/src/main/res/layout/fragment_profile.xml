@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="240dp"
+           android:id="@+id/coveriv"
+           android:scaleType="fitXY"
+           android:background="@drawable/mygradient">
+       </ImageView>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="5dp"
+           android:layout_below="@+id/coveriv"
+           android:background="@color/colorPrimary"></LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="155dp"
+           android:orientation="horizontal"
+           android:layout_marginTop="140dp">
+
+           <ImageView
+               android:layout_width="155dp"
+               android:layout_height="155dp"
+               android:id="@+id/avatar"
+               android:background="@color/colorPrimary"
+               android:layout_marginStart="20dp"
+               android:src="@drawable/ic_default_image_white"
+               android:padding="5dp"
+               android:layout_marginLeft="20dp"
+               />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/nametv"
+                   android:text="Name"
+                   android:layout_marginTop="10dp"
+                   android:textSize="25dp"
+                   android:textColor="@color/colorWhite"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginStart="5dp"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Email"
+                   android:id="@+id/emailtv"
+                   android:textColor="@color/colorWhite"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginStart="5dp"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Phone"
+                   android:id="@+id/phonetv"
+                   android:textColor="@color/colorWhite"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginStart="5dp"/>
+           </LinearLayout>
+       </LinearLayout>
+
+   </RelativeLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit_white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/floa"/>
+
+</RelativeLayout>
